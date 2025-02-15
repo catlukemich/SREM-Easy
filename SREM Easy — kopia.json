@@ -474,7 +474,7 @@
         "gridColor": 0,
         "gridAlpha": 0.36,
         "snap": false,
-        "zoomFactor": 0.8701407329938199,
+        "zoomFactor": 0.8417564283816247,
         "windowMask": false
       },
       "objectsGroups": [
@@ -584,57 +584,6 @@
               "value": 0
             }
           ]
-        },
-        {
-          "name": "CameraSettings",
-          "type": "structure",
-          "children": [
-            {
-              "name": "CurrentZoom",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "InteractiveLayers",
-              "type": "array",
-              "children": [
-                {
-                  "type": "string",
-                  "value": "Overlays"
-                },
-                {
-                  "type": "string",
-                  "value": "Roads"
-                },
-                {
-                  "type": "string",
-                  "value": "Base Layer"
-                },
-                {
-                  "type": "string",
-                  "value": "Markers (invisible)"
-                },
-                {
-                  "type": "string",
-                  "value": "Objects"
-                },
-                {
-                  "type": "string",
-                  "value": "Terrain"
-                }
-              ]
-            },
-            {
-              "name": "MaxZoom",
-              "type": "number",
-              "value": 4
-            },
-            {
-              "name": "MinZoom",
-              "type": "number",
-              "value": 0.2
-            }
-          ]
         }
       ],
       "instances": [
@@ -683,7 +632,7 @@
           "depth": 1,
           "height": 3422,
           "keepRatio": true,
-          "layer": "Terrain",
+          "layer": "",
           "locked": true,
           "name": "Grass",
           "persistentUuid": "adc32df6-2589-4670-baf3-5e0f360fcbd2",
@@ -1357,14 +1306,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 510,
+          "height": 428,
           "keepRatio": true,
           "layer": "Objects",
           "name": "HighRise",
           "persistentUuid": "d69d4f57-ebc6-4dc0-bce7-0bbde247f044",
-          "width": 381,
-          "x": 65,
-          "y": -543,
+          "width": 320,
+          "x": 95,
+          "y": -460,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -7498,7 +7447,6 @@
               "comment": "the markers layer must be dragged and zoomed in order to car spawning work correctly"
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -7571,284 +7519,340 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsMouseWheelScrollingUp"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ZoomScrollValue",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "\"Objects\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "\"Roads\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "\"Overlays\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "\"Markers (invisible)\"",
+                    "0",
+                    ""
+                  ]
+                }
+              ]
             },
             {
-              "type": "BuiltinCommonInstructions::ForEachChildVariable",
-              "iterableVariableName": "CameraSettings.InteractiveLayers",
-              "valueIteratorVariableName": "LayerName",
-              "keyIteratorVariableName": "LayerIndex",
-              "conditions": [],
-              "actions": [],
-              "events": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DragCameraWithPointer::DragCameraWithPointer"
-                      },
-                      "parameters": [
-                        "",
-                        "",
-                        "VariableString(LayerName)",
-                        "\"both\"",
-                        "Left",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "IsMouseWheelScrollingDown"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "IsMouseWheelScrollingUp"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "ZoomScrollValue",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "CameraZoom::ZoomWithSpeed"
-                      },
-                      "parameters": [
-                        "",
-                        "pow(2, ZoomSensitivity)",
-                        "VariableString(LayerName)",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "CameraSettings.CurrentZoom",
-                        "+",
-                        "2"
-                      ]
-                    }
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ZoomScrollValue",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "",
+                    "0",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "IsMouseWheelScrollingDown"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "ZoomScrollValue",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "CameraZoom::ZoomWithSpeed"
-                      },
-                      "parameters": [
-                        "",
-                        "pow(0.5, ZoomSensitivity)",
-                        "VariableString(LayerName)",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "CameraSettings.CurrentZoom",
-                        "-",
-                        "0.5"
-                      ]
-                    }
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "\"Objects\"",
+                    "0",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "IsMouseWheelScrollingUp"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "ZoomScrollValue",
-                        "=",
-                        "-1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "CameraZoom::ZoomWithSpeed"
-                      },
-                      "parameters": [
-                        "",
-                        "pow(0.5, ZoomSensitivity)",
-                        "VariableString(LayerName)",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "CameraSettings.CurrentZoom",
-                        "-",
-                        "0.5"
-                      ]
-                    }
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "\"Roads\"",
+                    "0",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "IsMouseWheelScrollingDown"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "ZoomScrollValue",
-                        "=",
-                        "-1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "CameraZoom::ZoomWithSpeed"
-                      },
-                      "parameters": [
-                        "",
-                        "pow(2, ZoomSensitivity)",
-                        "VariableString(LayerName)",
-                        "0",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "CameraSettings.CurrentZoom",
-                        "+",
-                        "2"
-                      ]
-                    }
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "\"Overlays\"",
+                    "0",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CameraZoom"
-                      },
-                      "parameters": [
-                        "",
-                        "VariableString(LayerName)",
-                        "",
-                        "<",
-                        "CameraSettings.MinZoom"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "CameraZoom::ZoomWithSpeed"
-                      },
-                      "parameters": [
-                        "",
-                        "pow(2, ZoomSensitivity)",
-                        "VariableString(LayerName)",
-                        "0",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "\"Markers (invisible)\"",
+                    "0",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsMouseWheelScrollingUp"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CameraZoom"
-                      },
-                      "parameters": [
-                        "",
-                        "VariableString(LayerName)",
-                        "",
-                        ">",
-                        "CameraSettings.MaxZoom"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "CameraZoom::ZoomWithSpeed"
-                      },
-                      "parameters": [
-                        "",
-                        "pow(0.5, ZoomSensitivity)",
-                        "VariableString(LayerName)",
-                        "0",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ZoomScrollValue",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "\"Objects\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "\"Roads\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "\"Overlays\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(0.5, ZoomSensitivity)",
+                    "\"Markers (invisible)\"",
+                    "0",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsMouseWheelScrollingDown"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ZoomScrollValue",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "\"Objects\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "\"Roads\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "\"Overlays\"",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithSpeed"
+                  },
+                  "parameters": [
+                    "",
+                    "pow(2, ZoomSensitivity)",
+                    "\"Markers (invisible)\"",
+                    "0",
+                    ""
                   ]
                 }
               ]
@@ -10065,7 +10069,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -10082,39 +10086,6 @@
             }
           ],
           "effects": []
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": true,
-          "name": "Terrain",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
         },
         {
           "ambientLightColorB": 200,
@@ -10192,7 +10163,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "Objects",
           "renderingType": "",
           "visibility": true,
@@ -10225,7 +10196,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "Markers (invisible)",
           "renderingType": "",
           "visibility": true,
