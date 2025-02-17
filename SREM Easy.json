@@ -311,7 +311,7 @@
         "userAdded": false
       },
       {
-        "file": "NWL .png",
+        "file": "buildings/NWL .png",
         "kind": "image",
         "metadata": "",
         "name": "NWL .png",
@@ -421,6 +421,182 @@
         "name": "corner_highlight2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "buildings/factory.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\factory.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/apartament.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\apartament.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "markers/car_spawn_marker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "markers\\car_spawn_marker.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/factory-from-concept.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\factory-from-concept.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/factory-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\factory-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vehicles/car_one/east.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vehicles\\car_one\\east.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vehicles/car_one/north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vehicles\\car_one\\north.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vehicles/car_one/south.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vehicles\\car_one\\south.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vehicles/car_one/west.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vehicles\\car_one\\west.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vehicles/pickup/east.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vehicles\\pickup\\east.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vehicles/pickup/north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vehicles\\pickup\\north.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vehicles/pickup/south.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vehicles\\pickup\\south.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vehicles/pickup/west.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vehicles\\pickup\\west.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/freesome.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\freesome.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/house-modern-1-east.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\house-modern-1-east.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/house-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\house-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/house-luxury-north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\house-luxury-north.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/house-modern-2-east.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\house-modern-2-east.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "trees/tree-leaf-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trees\\tree-leaf-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "trees/tree-leaf-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trees\\tree-leaf-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "trees/tree-leaf-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trees\\tree-leaf-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "trees/conifer-tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trees\\conifer-tree.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -465,7 +641,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "isometric",
         "gridWidth": 128,
         "gridHeight": 64,
@@ -473,8 +649,8 @@
         "gridOffsetY": 0,
         "gridColor": 0,
         "gridAlpha": 0.36,
-        "snap": false,
-        "zoomFactor": 0.8701407329938199,
+        "snap": true,
+        "zoomFactor": 0.30108675882139274,
         "windowMask": false
       },
       "objectsGroups": [
@@ -531,7 +707,13 @@
           "name": "Cars",
           "objects": [
             {
-              "name": "BlackCar2"
+              "name": "RedCar"
+            },
+            {
+              "name": "Vehicle1"
+            },
+            {
+              "name": "Vehicle2"
             }
           ]
         },
@@ -574,9 +756,14 @@
           "type": "structure",
           "children": [
             {
+              "name": "CurrentCarID",
+              "type": "number",
+              "value": 0
+            },
+            {
               "name": "MaxCars",
               "type": "number",
-              "value": 20
+              "value": 50
             },
             {
               "name": "Spawned",
@@ -590,11 +777,17 @@
           "type": "structure",
           "children": [
             {
+              "name": "BoundariesSpan",
+              "type": "number",
+              "value": 2200
+            },
+            {
               "name": "CurrentZoom",
               "type": "number",
               "value": 0
             },
             {
+              "folded": true,
               "name": "InteractiveLayers",
               "type": "array",
               "children": [
@@ -627,12 +820,12 @@
             {
               "name": "MaxZoom",
               "type": "number",
-              "value": 4
+              "value": 2
             },
             {
               "name": "MinZoom",
               "type": "number",
-              "value": 0.2
+              "value": 0.5
             }
           ]
         }
@@ -658,14 +851,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 290,
+          "height": 403,
           "keepRatio": true,
           "layer": "Objects",
+          "locked": true,
           "name": "Factory",
           "persistentUuid": "b56b0063-647b-4c93-baa3-eb63039af422",
-          "width": 388,
-          "x": -68,
-          "y": -2,
+          "width": 540,
+          "x": -967,
+          "y": -1356,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1360,6 +1554,7 @@
           "height": 510,
           "keepRatio": true,
           "layer": "Objects",
+          "locked": true,
           "name": "HighRise",
           "persistentUuid": "d69d4f57-ebc6-4dc0-bce7-0bbde247f044",
           "width": 381,
@@ -3688,22 +3883,6 @@
           "keepRatio": true,
           "layer": "Roads",
           "name": "RoadStraight1",
-          "persistentUuid": "c50643da-59c4-4b00-8da3-fd2e2a9ee386",
-          "width": 0,
-          "x": -1280,
-          "y": 704,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Roads",
-          "name": "RoadStraight1",
           "persistentUuid": "60cb4878-b369-4ba2-97a4-7c592bd53fae",
           "width": 0,
           "x": -1344,
@@ -3949,22 +4128,6 @@
           "x": -192,
           "y": 736,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Roads",
-          "name": "RoadTurn4",
-          "persistentUuid": "260a5be0-eaaf-4952-8323-c52b6eab47eb",
-          "width": 0,
-          "x": -256,
-          "y": 768,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5997,39 +6160,1556 @@
               "value": 2
             }
           ]
-        }
-      ],
-      "objects": [
+        },
         {
-          "assetStoreId": "",
-          "name": "BlackCar2",
-          "type": "Rozszerzenie_bez_tytułu::BlackCar",
-          "variables": [
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 267,
+          "keepRatio": true,
+          "layer": "Objects",
+          "locked": true,
+          "name": "Factory2",
+          "persistentUuid": "f158f38a-433f-4657-96cd-7bba3f0dbe9e",
+          "width": 356,
+          "x": -1308,
+          "y": 20,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 299,
+          "keepRatio": true,
+          "layer": "Objects",
+          "locked": true,
+          "name": "Factory3",
+          "persistentUuid": "47a26b68-cfae-4a23-bb0b-ebd93cdceb4b",
+          "width": 397,
+          "x": -821,
+          "y": -277,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "fb0c87cb-4575-48d2-bd75-0836ad2d7a37",
+          "width": 0,
+          "x": 448,
+          "y": 1120,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "73006253-fe4b-4da0-9f1b-e7fd40187e71",
+          "width": 0,
+          "x": 512,
+          "y": 1152,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "7c6f4a42-b672-46f2-8159-596351fe06b5",
+          "width": 0,
+          "x": 704,
+          "y": 1248,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "38c98c04-a4d1-4525-9edb-94217e987062",
+          "width": 0,
+          "x": 640,
+          "y": 1216,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "6a5e5eac-214d-4e64-93fe-8c72def354d0",
+          "width": 0,
+          "x": 576,
+          "y": 1184,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "2886551b-a46a-40b1-9439-08a9e83792d3",
+          "width": 0,
+          "x": 768,
+          "y": 1280,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "_3way2",
+          "persistentUuid": "9762972c-d63c-4322-9c96-08b6ce572800",
+          "width": 0,
+          "x": -256,
+          "y": 768,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "09ccb5bf-2532-49e0-92b7-81a3b5518a43",
+          "width": 0,
+          "x": -320,
+          "y": 800,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "41045f6b-0c08-464c-a341-d8eac4ca8dee",
+          "width": 0,
+          "x": -384,
+          "y": 832,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "b29fe068-966e-4f9e-879b-27f80bbe242b",
+          "width": 0,
+          "x": -448,
+          "y": 864,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "91eb4c96-21f4-4908-b574-bf0cde6a7200",
+          "width": 0,
+          "x": -512,
+          "y": 896,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "3d2bb893-e176-4e21-944a-774a4057e855",
+          "width": 0,
+          "x": -576,
+          "y": 928,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "3380030d-f10f-4c75-b9da-6fb96f2b3417",
+          "width": 0,
+          "x": -640,
+          "y": 960,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "5c99a640-d3bb-401c-bd75-7476e60b68c8",
+          "width": 0,
+          "x": -768,
+          "y": 1024,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "17be0d0d-aece-49e7-97d9-288445e061e8",
+          "width": 0,
+          "x": -832,
+          "y": 1056,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "40c4a465-4d58-4bf1-9f39-d04c6ad55b1f",
+          "width": 0,
+          "x": -896,
+          "y": 1088,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "2ce5b80c-49f5-4d51-a170-fc6ae32fb19d",
+          "width": 0,
+          "x": -960,
+          "y": 1120,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "f66db31f-4ed8-4a0d-a4b7-fcc66f250001",
+          "width": 0,
+          "x": -1024,
+          "y": 1152,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "48501bbd-1328-40dc-8178-33d0695fb5aa",
+          "width": 0,
+          "x": -1088,
+          "y": 1184,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "20839eb1-fbb5-4964-90e7-fff7d5f1c409",
+          "width": 0,
+          "x": -1152,
+          "y": 1216,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "d2032472-fa57-4f52-82f7-ec8003252381",
+          "width": 0,
+          "x": -1216,
+          "y": 1248,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "196a9906-c120-4c23-8162-eb0aa281e3b3",
+          "width": 0,
+          "x": -1280,
+          "y": 1280,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "585e47b8-6c4a-4dc8-979e-1b651600e649",
+          "width": 0,
+          "x": -1344,
+          "y": 1312,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "bc13ca39-12af-46a5-a5e0-2fe452dec677",
+          "width": 0,
+          "x": -1408,
+          "y": 1344,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "74ab1848-b6b9-483b-aef3-8d4f1b57fadd",
+          "width": 0,
+          "x": -1472,
+          "y": 1376,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "95ff991b-5fa1-42e2-9f9c-58664fffb8aa",
+          "width": 0,
+          "x": -1536,
+          "y": 1408,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "_3way4",
+          "persistentUuid": "d3aa0f17-d416-4850-b967-9dbd3d91e37f",
+          "width": 0,
+          "x": -704,
+          "y": 992,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "2e6f3492-b3f6-4e07-b216-b4a32429fb2f",
+          "width": 0,
+          "x": -1024,
+          "y": 832,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "33adb956-fe07-477c-9853-91ec0ea5fb05",
+          "width": 0,
+          "x": -960,
+          "y": 864,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "aa490ef8-c902-41ca-83a3-431aebe867fa",
+          "width": 0,
+          "x": -896,
+          "y": 896,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "55cc447f-4545-481b-872b-cfcb4a1c7ac0",
+          "width": 0,
+          "x": -768,
+          "y": 960,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "c44a94df-cedb-4dae-a9c2-72384c0c7808",
+          "width": 0,
+          "x": -832,
+          "y": 928,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "54c288d7-8b6a-46c9-a59d-97cae9b73332",
+          "width": 0,
+          "x": -1216,
+          "y": 736,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "4b3f8acc-bb51-48ac-99b3-12ca92a0544f",
+          "width": 0,
+          "x": -1152,
+          "y": 768,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "a1c5d956-2940-42ea-a9cf-4bec056765be",
+          "width": 0,
+          "x": -1088,
+          "y": 800,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "64218f43-95a4-4869-a4af-00434927b1f9",
+          "width": 0,
+          "x": -1472,
+          "y": 608,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "faf891eb-56f3-477b-b94c-5b62cbf65327",
+          "width": 0,
+          "x": -1408,
+          "y": 640,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "8f13036b-6db7-4c2b-b8fe-d10db2eede33",
+          "width": 0,
+          "x": -1344,
+          "y": 672,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadCrossing",
+          "persistentUuid": "9adf76c8-7f7b-43a8-b1cc-58d78f70486a",
+          "width": 0,
+          "x": -1280,
+          "y": 704,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "31bdbb1b-0299-4d75-b55a-44a7880a38ad",
+          "width": 0,
+          "x": -1600,
+          "y": 544,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "c89ede82-d422-45eb-8e23-d3ea4f8dffa9",
+          "width": 0,
+          "x": -1536,
+          "y": 576,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "6ede89ef-da20-419b-affb-8f0322f7b35f",
+          "width": 0,
+          "x": -1856,
+          "y": 416,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "4abbffba-8b75-46bb-86d5-6abc44771d99",
+          "width": 0,
+          "x": -1792,
+          "y": 448,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight2",
+          "persistentUuid": "e026af66-390d-497d-8f80-740c51ad51d0",
+          "width": 0,
+          "x": -1728,
+          "y": 480,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "_3way1",
+          "persistentUuid": "94a8e725-fd20-4329-b13a-c6ec01b4d18b",
+          "width": 0,
+          "x": -1664,
+          "y": 512,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "4c60303c-363a-4c24-b9d6-9ed36572cc78",
+          "width": 0,
+          "x": -1408,
+          "y": 384,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "4a83e16a-1a1c-49de-a2f2-ceb7a656f8c6",
+          "width": 0,
+          "x": -1472,
+          "y": 416,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "4d6ee3ef-5fa6-4489-8265-35fe7a1c80c3",
+          "width": 0,
+          "x": -1280,
+          "y": 320,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "e1bec23a-77f0-42bd-ab19-ee82dd926e07",
+          "width": 0,
+          "x": -1344,
+          "y": 352,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "b091e713-540b-47ef-8134-10b996cb2f23",
+          "width": 0,
+          "x": -1536,
+          "y": 448,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Roads",
+          "name": "RoadStraight1",
+          "persistentUuid": "bc0215a9-0af5-4fc6-84ce-f9a6248bd4cf",
+          "width": 0,
+          "x": -1600,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 73,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "RedCar",
+          "persistentUuid": "7230788c-39ec-4065-81c9-daf809935417",
+          "width": 73,
+          "x": -35,
+          "y": 680,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
             {
               "name": "Speed",
               "type": "number",
-              "value": 4
-            },
-            {
-              "name": "CrossingBehavior",
-              "type": "number",
-              "value": 0
-            },
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Markers (invisible)",
+          "name": "CarSpawnMarker",
+          "persistentUuid": "89725521-04dd-47b2-80b1-375e80f268cf",
+          "width": 0,
+          "x": 1495,
+          "y": -403,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
             {
               "name": "Direction",
               "type": "number",
-              "value": 0
+              "value": 1
             }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "InOnScreen",
-              "type": "IsOnScreen::InOnScreen"
-            }
-          ],
-          "content": {}
+          ]
         },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Markers (invisible)",
+          "name": "CarSpawnMarker",
+          "persistentUuid": "a2af8f8f-bcd8-4fe7-9a77-6e49d8386426",
+          "width": 0,
+          "x": 999,
+          "y": -793,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Markers (invisible)",
+          "name": "CarSpawnMarker",
+          "persistentUuid": "25c3b3b4-a8b0-49d4-8b1c-9aebfe1ddf5c",
+          "width": 0,
+          "x": -217,
+          "y": -999,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "Markers (invisible)",
+          "name": "Vehicle2",
+          "persistentUuid": "794693bb-e622-4bb2-8c7b-2a8200dba7f9",
+          "width": 68,
+          "x": -339,
+          "y": 837,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 510,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "HighRise",
+          "persistentUuid": "35595f90-88c4-4b8f-8c95-8d259d7c8952",
+          "width": 381,
+          "x": 960,
+          "y": -478,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 521,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Freesome",
+          "persistentUuid": "4ee45431-aa44-43c4-ab54-06f94610ac2e",
+          "width": 575,
+          "x": -830,
+          "y": 119,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 201,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "ModerHouse",
+          "persistentUuid": "2667cc08-3201-425b-bdc0-8c7b13868bec",
+          "width": 294,
+          "x": -940,
+          "y": -93,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 201,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "ModerHouse",
+          "persistentUuid": "1b17a7f7-4ac2-42ab-8965-072b3ffc15a7",
+          "width": 294,
+          "x": -780,
+          "y": 787,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "keepRatio": true,
+          "layer": "Objects",
+          "locked": true,
+          "name": "HouseNorth",
+          "persistentUuid": "0eb124d3-5a16-4f7d-be47-f4879abd8ac2",
+          "width": 334,
+          "x": -1199,
+          "y": 783,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 250,
+          "keepRatio": true,
+          "layer": "Objects",
+          "locked": true,
+          "name": "HouseNorth",
+          "persistentUuid": "7037fb09-5ab3-44a6-bf84-81ec2a5058c3",
+          "width": 334,
+          "x": -1029,
+          "y": 867,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 229,
+          "keepRatio": true,
+          "layer": "Objects",
+          "locked": true,
+          "name": "HouseLuxury",
+          "persistentUuid": "56224f76-deff-4b0d-8851-73bcbb597bfe",
+          "width": 385,
+          "x": -1531,
+          "y": 409,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 229,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "HouseLuxury",
+          "persistentUuid": "2b9703c1-d9d5-4a92-9966-cf32d735a8b0",
+          "width": 385,
+          "x": 704,
+          "y": -713,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 226,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "HouseModerEast",
+          "persistentUuid": "e4611ea3-77bc-43e6-aa73-ac5b8d53769c",
+          "width": 427,
+          "x": -360,
+          "y": -1465,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree1",
+          "persistentUuid": "7458ff78-0238-43b8-a120-c7b76c9dadef",
+          "width": 0,
+          "x": -448,
+          "y": -1376,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 233,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "97026f78-5f72-4f44-84c5-752efd91a879",
+          "width": 121,
+          "x": 586,
+          "y": -903,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "08a67947-a2a6-4359-bea3-a44e83c3bacf",
+          "width": 0,
+          "x": -502,
+          "y": -1014,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "ae6ceeef-304b-4cef-817a-c30baf9adc98",
+          "width": 0,
+          "x": -117,
+          "y": -863,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "8e09eaaa-c988-4874-b015-34adf30f09cd",
+          "width": 0,
+          "x": -293,
+          "y": -560,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "446e545f-9ce5-4909-92a3-39987334b19a",
+          "width": 0,
+          "x": 129,
+          "y": -1193,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "05bcb66a-1f4d-4e3b-9b52-da9c21584924",
+          "width": 0,
+          "x": 576,
+          "y": -649,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "aa4be3ba-e5ce-4438-82e0-50b6a6d05438",
+          "width": 0,
+          "x": 128,
+          "y": -1193,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "822b2a5a-90df-41f5-8948-4c0154bfacfc",
+          "width": 0,
+          "x": 249,
+          "y": -1071,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "279ede94-adba-41c1-9423-2810f35e922f",
+          "width": 0,
+          "x": 546,
+          "y": -1039,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "b6170689-03f5-4df7-8f38-0b1695e1d1b8",
+          "width": 0,
+          "x": 345,
+          "y": -1138,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "84d34640-b5b3-44b3-97c7-0e76a7c028f2",
+          "width": 0,
+          "x": 381,
+          "y": -1061,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "58312058-c968-4cfc-8aa6-156f88a2f168",
+          "width": 0,
+          "x": -512,
+          "y": -768,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree3",
+          "persistentUuid": "3049b92b-3921-4d53-b1b4-7afec7abe36f",
+          "width": 0,
+          "x": -576,
+          "y": -416,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree4",
+          "persistentUuid": "431ff40b-9c4f-45ac-a4aa-3eb4f4067a99",
+          "width": 0,
+          "x": -1280,
+          "y": -768,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree4",
+          "persistentUuid": "a3d9e7c3-fc20-4cc3-bf95-dd8c07eae350",
+          "width": 0,
+          "x": 0,
+          "y": -832,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree3",
+          "persistentUuid": "fa53a7b7-eff6-4290-b518-161821a6edaf",
+          "width": 0,
+          "x": 0,
+          "y": -1216,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree1",
+          "persistentUuid": "3b401138-da35-4f8c-90c0-72bd39293239",
+          "width": 0,
+          "x": 896,
+          "y": -1344,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "532662d4-d727-429b-950a-d91eb4aa80a9",
+          "width": 0,
+          "x": 1088,
+          "y": -1248,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree3",
+          "persistentUuid": "ead4e960-f366-4eff-af2f-ff3e18acbf9a",
+          "width": 0,
+          "x": 1152,
+          "y": -1344,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree1",
+          "persistentUuid": "01a7a9ab-2a6e-48ae-a499-d0e524365aa8",
+          "width": 0,
+          "x": 768,
+          "y": -1216,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree3",
+          "persistentUuid": "a1d5e9b2-26e0-459d-8a44-2dba70e37154",
+          "width": 0,
+          "x": 704,
+          "y": -1184,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree4",
+          "persistentUuid": "d948d714-6ac4-4707-82ff-9701d1b3d5ec",
+          "width": 0,
+          "x": 896,
+          "y": -1088,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree4",
+          "persistentUuid": "a625b7dc-5b93-4587-a451-f9a5e5e44676",
+          "width": 0,
+          "x": 448,
+          "y": -1376,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree3",
+          "persistentUuid": "b16b66a3-cc90-40cc-8788-04c1ff814ea8",
+          "width": 0,
+          "x": 644,
+          "y": -1385,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree2",
+          "persistentUuid": "fe236817-a4ff-4a61-ae60-1d3abbb6c537",
+          "width": 0,
+          "x": 960,
+          "y": -1504,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Tree1",
+          "persistentUuid": "d0049301-4d10-4c44-9264-6368f1d6413d",
+          "width": 0,
+          "x": 1004,
+          "y": -1436,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
         {
           "assetStoreId": "",
           "name": "BuySpotUI",
@@ -6127,7 +7807,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "building-cut-corners.png",
+                      "image": "buildings\\factory.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6143,20 +7823,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 768
+                            "x": 10,
+                            "y": 211
                           },
                           {
-                            "x": 1020,
-                            "y": 768
+                            "x": 1003,
+                            "y": 211
                           },
                           {
-                            "x": 1020,
-                            "y": 2048
+                            "x": 1003,
+                            "y": 753
                           },
                           {
-                            "x": 4,
-                            "y": 2048
+                            "x": 10,
+                            "y": 753
                           }
                         ]
                       ]
@@ -6187,7 +7867,6 @@
           "variables": [
             {
               "name": "ySortOffset",
-              "persistentUuid": "2a9c9d24-3d87-4cb7-bded-edd302217cb5",
               "type": "number",
               "value": 0
             },
@@ -6220,7 +7899,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "apartament.png",
+                      "image": "buildings\\apartament.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7203,7 +8882,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "corner_highlight2.png",
+                      "image": "markers\\car_spawn_marker.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7219,20 +8898,1598 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 14,
-                            "y": 14
+                            "x": 11,
+                            "y": 11
                           },
                           {
-                            "x": 18,
-                            "y": 14
+                            "x": 21,
+                            "y": 11
                           },
                           {
-                            "x": 18,
-                            "y": 18
+                            "x": 21,
+                            "y": 21
                           },
                           {
-                            "x": 14,
-                            "y": 18
+                            "x": 11,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Factory2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "ySortOffset",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BuildingName",
+              "type": "string",
+              "value": "0"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BuildingBehavior",
+              "type": "BuildingBehavior::BuildingBehavior",
+              "Property": "YSort"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "buildings\\factory-from-concept.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 686,
+                            "y": 0
+                          },
+                          {
+                            "x": 686,
+                            "y": 515
+                          },
+                          {
+                            "x": 0,
+                            "y": 515
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Factory3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "ySortOffset",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BuildingName",
+              "type": "string",
+              "value": "0"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BuildingBehavior",
+              "type": "BuildingBehavior::BuildingBehavior",
+              "Property": "YSort"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "buildings\\factory-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 131,
+                            "y": 257
+                          },
+                          {
+                            "x": 985,
+                            "y": 257
+                          },
+                          {
+                            "x": 985,
+                            "y": 706
+                          },
+                          {
+                            "x": 131,
+                            "y": 706
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "RedCar",
+          "type": "Rozszerzenie_bez_tytułu::BlackCar",
+          "variables": [
+            {
+              "name": "Speed",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "CrossingBehavior",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Direction",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "HueChangeRange",
+              "type": "number",
+              "value": 180
+            },
+            {
+              "name": "Hues",
+              "type": "array",
+              "children": [
+                {
+                  "type": "number",
+                  "value": 30
+                },
+                {
+                  "type": "number",
+                  "value": 60
+                },
+                {
+                  "type": "number",
+                  "value": 80
+                },
+                {
+                  "type": "number",
+                  "value": 120
+                },
+                {
+                  "type": "number",
+                  "value": 130
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "HslAdjustment",
+              "name": "HSL",
+              "doubleParameters": {
+                "alpha": 1,
+                "hue": 0,
+                "lightness": 0,
+                "saturation": 0
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "colorize": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "content": {},
+          "childrenContent": {
+            "BlackCar": {
+              "adaptCollisionMaskAutomatically": true,
+              "updateIfNotVisible": false,
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 100000,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\car_one\\north.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 76,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 146
+                              },
+                              {
+                                "x": 76,
+                                "y": 146
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\car_one\\south.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 76,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 146
+                              },
+                              {
+                                "x": 76,
+                                "y": 146
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\car_one\\west.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 76,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 146
+                              },
+                              {
+                                "x": 76,
+                                "y": 146
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\car_one\\east.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 76,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 146
+                              },
+                              {
+                                "x": 76,
+                                "y": 146
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Vehicle1",
+          "type": "Rozszerzenie_bez_tytułu::BlackCar",
+          "variables": [
+            {
+              "name": "Speed",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "CrossingBehavior",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Direction",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "HueChangeRange",
+              "type": "number",
+              "value": 180
+            },
+            {
+              "name": "Hues",
+              "type": "array",
+              "children": [
+                {
+                  "type": "number",
+                  "value": 30
+                },
+                {
+                  "type": "number",
+                  "value": 60
+                },
+                {
+                  "type": "number",
+                  "value": 80
+                },
+                {
+                  "type": "number",
+                  "value": 120
+                },
+                {
+                  "type": "number",
+                  "value": 130
+                },
+                {
+                  "type": "number",
+                  "value": 170
+                },
+                {
+                  "type": "number",
+                  "value": -50
+                },
+                {
+                  "type": "number",
+                  "value": -90
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "HslAdjustment",
+              "name": "HSL",
+              "doubleParameters": {
+                "alpha": 1,
+                "hue": 0,
+                "lightness": 0,
+                "saturation": -0.3
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "colorize": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "content": {},
+          "childrenContent": {
+            "BlackCar": {
+              "adaptCollisionMaskAutomatically": true,
+              "updateIfNotVisible": false,
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 100000,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\car_one\\north.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 76,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 146
+                              },
+                              {
+                                "x": 76,
+                                "y": 146
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\car_one\\south.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 76,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 146
+                              },
+                              {
+                                "x": 76,
+                                "y": 146
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\car_one\\west.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 76,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 146
+                              },
+                              {
+                                "x": 76,
+                                "y": 146
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\car_one\\east.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 76,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 46
+                              },
+                              {
+                                "x": 246,
+                                "y": 146
+                              },
+                              {
+                                "x": 76,
+                                "y": 146
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Vehicle2",
+          "type": "Rozszerzenie_bez_tytułu::BlackCar",
+          "variables": [
+            {
+              "name": "Speed",
+              "type": "number",
+              "value": 1.4
+            },
+            {
+              "name": "CrossingBehavior",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Direction",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "HueChangeRange",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Hues",
+              "type": "array",
+              "children": [
+                {
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "type": "number",
+                  "value": 50
+                },
+                {
+                  "type": "number",
+                  "value": 120
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "HslAdjustment",
+              "name": "HSL",
+              "doubleParameters": {
+                "alpha": 1,
+                "hue": 0,
+                "lightness": 0,
+                "saturation": -0.3
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "colorize": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "content": {},
+          "childrenContent": {
+            "BlackCar": {
+              "adaptCollisionMaskAutomatically": true,
+              "updateIfNotVisible": false,
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 100000,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\pickup\\north.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 46,
+                                "y": 31
+                              },
+                              {
+                                "x": 229,
+                                "y": 31
+                              },
+                              {
+                                "x": 229,
+                                "y": 158
+                              },
+                              {
+                                "x": 46,
+                                "y": 158
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\pickup\\south.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 46,
+                                "y": 31
+                              },
+                              {
+                                "x": 229,
+                                "y": 31
+                              },
+                              {
+                                "x": 229,
+                                "y": 158
+                              },
+                              {
+                                "x": 46,
+                                "y": 158
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\pickup\\west.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 46,
+                                "y": 31
+                              },
+                              {
+                                "x": 229,
+                                "y": 31
+                              },
+                              {
+                                "x": 229,
+                                "y": 158
+                              },
+                              {
+                                "x": 46,
+                                "y": 158
+                              }
+                            ]
+                          ]
+                        },
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "vehicles\\pickup\\east.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 46,
+                                "y": 31
+                              },
+                              {
+                                "x": 229,
+                                "y": 31
+                              },
+                              {
+                                "x": 229,
+                                "y": 158
+                              },
+                              {
+                                "x": 46,
+                                "y": 158
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Freesome",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "ySortOffset",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BuildingName",
+              "type": "string",
+              "value": "Apartaments building"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BuildingBehavior",
+              "type": "BuildingBehavior::BuildingBehavior",
+              "Property": "YSort"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "buildings\\freesome.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1155,
+                            "y": 0
+                          },
+                          {
+                            "x": 1155,
+                            "y": 1048
+                          },
+                          {
+                            "x": 0,
+                            "y": 1048
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ModerHouse",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "ySortOffset",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BuildingName",
+              "type": "string",
+              "value": "Apartaments building"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BuildingBehavior",
+              "type": "BuildingBehavior::BuildingBehavior",
+              "Property": "YSort"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "buildings\\house-modern-1-east.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 29,
+                            "y": 0
+                          },
+                          {
+                            "x": 686,
+                            "y": 0
+                          },
+                          {
+                            "x": 686,
+                            "y": 428
+                          },
+                          {
+                            "x": 29,
+                            "y": 428
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HouseNorth",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "ySortOffset",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BuildingName",
+              "type": "string",
+              "value": "Apartaments building"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BuildingBehavior",
+              "type": "BuildingBehavior::BuildingBehavior",
+              "Property": "YSort"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "buildings\\house-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 109
+                          },
+                          {
+                            "x": 512,
+                            "y": 109
+                          },
+                          {
+                            "x": 512,
+                            "y": 384
+                          },
+                          {
+                            "x": 0,
+                            "y": 384
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HouseLuxury",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "ySortOffset",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BuildingName",
+              "type": "string",
+              "value": "Apartaments building"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BuildingBehavior",
+              "type": "BuildingBehavior::BuildingBehavior",
+              "Property": "YSort"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "buildings\\house-luxury-north.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 736,
+                            "y": 0
+                          },
+                          {
+                            "x": 736,
+                            "y": 438
+                          },
+                          {
+                            "x": 0,
+                            "y": 438
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HouseModerEast",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "ySortOffset",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "BuildingName",
+              "type": "string",
+              "value": "Apartaments building"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BuildingBehavior",
+              "type": "BuildingBehavior::BuildingBehavior",
+              "Property": "YSort"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "buildings\\house-modern-2-east.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 768,
+                            "y": 0
+                          },
+                          {
+                            "x": 768,
+                            "y": 406
+                          },
+                          {
+                            "x": 0,
+                            "y": 406
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tree1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trees\\tree-leaf-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 69
+                          },
+                          {
+                            "x": 113,
+                            "y": 69
+                          },
+                          {
+                            "x": 113,
+                            "y": 204
+                          },
+                          {
+                            "x": 34,
+                            "y": 204
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tree2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trees\\tree-leaf-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 71
+                          },
+                          {
+                            "x": 111,
+                            "y": 71
+                          },
+                          {
+                            "x": 111,
+                            "y": 223
+                          },
+                          {
+                            "x": 21,
+                            "y": 223
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tree3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trees\\tree-leaf-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28,
+                            "y": 78
+                          },
+                          {
+                            "x": 106,
+                            "y": 78
+                          },
+                          {
+                            "x": 106,
+                            "y": 220
+                          },
+                          {
+                            "x": 28,
+                            "y": 220
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tree4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trees\\conifer-tree.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 35,
+                            "y": 35
+                          },
+                          {
+                            "x": 163,
+                            "y": 35
+                          },
+                          {
+                            "x": 163,
+                            "y": 213
+                          },
+                          {
+                            "x": 35,
+                            "y": 213
                           }
                         ]
                       ]
@@ -7248,13 +10505,41 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "folderName": "Markers"
+            "folderName": "Nature",
+            "children": [
+              {
+                "objectName": "Tree1"
+              },
+              {
+                "objectName": "Tree2"
+              },
+              {
+                "objectName": "Tree3"
+              },
+              {
+                "objectName": "Tree4"
+              },
+              {
+                "folderName": "Markers",
+                "children": [
+                  {
+                    "objectName": "CarSpawnMarker"
+                  }
+                ]
+              }
+            ]
           },
           {
             "folderName": "Cars",
             "children": [
               {
-                "objectName": "BlackCar2"
+                "objectName": "RedCar"
+              },
+              {
+                "objectName": "Vehicle1"
+              },
+              {
+                "objectName": "Vehicle2"
               }
             ]
           },
@@ -7333,10 +10618,31 @@
                 "objectName": "Factory"
               },
               {
+                "objectName": "Factory2"
+              },
+              {
+                "objectName": "Factory3"
+              },
+              {
                 "objectName": "Apartament"
               },
               {
                 "objectName": "HighRise"
+              },
+              {
+                "objectName": "Freesome"
+              },
+              {
+                "objectName": "ModerHouse"
+              },
+              {
+                "objectName": "HouseNorth"
+              },
+              {
+                "objectName": "HouseLuxury"
+              },
+              {
+                "objectName": "HouseModerEast"
               }
             ]
           },
@@ -7345,9 +10651,6 @@
           },
           {
             "objectName": "BuySpotUI"
-          },
-          {
-            "objectName": "CarSpawnMarker"
           }
         ]
       },
@@ -7417,58 +10720,6 @@
                   "parameters": [
                     "",
                     "\"Cars respawn timer\""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 226,
-          "colorG": 144,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Buildings hovers",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Buildings",
-                    "",
-                    "yes",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Gameplay.SlotsOwned",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "StatusBar",
-                    "Text",
-                    "=",
-                    "Buildings.BuildingName"
                   ]
                 }
               ]
@@ -7568,11 +10819,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::ForEachChildVariable",
@@ -7850,6 +11096,26 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ClampCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "-CameraSettings.BoundariesSpan / 2",
+                        "-CameraSettings.BoundariesSpan / 2",
+                        "CameraSettings.BoundariesSpan / 2",
+                        "CameraSettings.BoundariesSpan / 2",
+                        "VariableString(LayerName)",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -7861,7 +11127,6 @@
           "colorG": 233,
           "colorR": 58,
           "creationTime": 0,
-          "folded": true,
           "name": "UI Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7898,176 +11163,6 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Slots purchasing",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Spot",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BuySpotUI",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Spot",
-                    "IsSelected",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "BuySpotUI",
-                    "BuySpotUI",
-                    "",
-                    "",
-                    "\"UI Modals\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AlignObject::ToSceneCenter"
-                  },
-                  "parameters": [
-                    "",
-                    "BuySpotUI",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AlignObject::ToSceneMiddle"
-                  },
-                  "parameters": [
-                    "",
-                    "BuySpotUI",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuySpotUIBehavior::BuySpotUI::SetPrice"
-                  },
-                  "parameters": [
-                    "BuySpotUI",
-                    "Spot.Price",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Spot",
-                    "IsSelected",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuySpotUIBehavior::BuySpotUI::BuyConfirmed"
-                  },
-                  "parameters": [
-                    "BuySpotUI",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Gameplay.SlotsOwned",
-                    "=",
-                    "Gameplay.SlotsOwned + 1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Spot",
-                    "IsSelected",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Spot",
-                    "Opacity",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BuySpotUI",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         },
         {
           "colorB": 228,
@@ -8138,7 +11233,7 @@
                     "",
                     "\"Cars Update\"",
                     ">=",
-                    "0.03"
+                    "0.01"
                   ]
                 }
               ],
@@ -9469,7 +12564,6 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
-                      "folded": true,
                       "name": "Reposition after turning (on the crossroads or a road turn)",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
@@ -9540,16 +12634,6 @@
                                     "=",
                                     "RoadTurnPoint.CenterY() + OffsetDistance"
                                   ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "DebuggerTools::ConsoleLog"
-                                  },
-                                  "parameters": [
-                                    "\"Going up?\"",
-                                    "\"info\"",
-                                    ""
-                                  ]
                                 }
                               ]
                             },
@@ -9609,26 +12693,6 @@
                                     "RoadTurnPoint.CenterX() + OffsetDistance",
                                     "=",
                                     "RoadTurnPoint.CenterY() - OffsetDistance * 2"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "DebuggerTools::ConsoleLog"
-                                  },
-                                  "parameters": [
-                                    "\"Going left?\"",
-                                    "\"info\"",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "DebuggerTools::ConsoleLog"
-                                  },
-                                  "parameters": [
-                                    "\"TurningPointX: \" + ToString(RoadTurnPoint.CenterX()) + \" CarX: \" + ToString(Cars.CenterX())",
-                                    "\"info\"",
-                                    ""
                                   ]
                                 }
                               ]
@@ -9814,198 +12878,19 @@
                   "value": true
                 }
               ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Cars respawn timer\"",
-                ">=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "ToString(TimerElapsedTime(\"Cars respawn timer\"))",
-                "\"info\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Cars respawn timer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "CarsVars.Spawned",
-                    "<=",
-                    "CarsVars.MaxCars"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AjoutHasard"
-                  },
-                  "parameters": [
-                    "",
-                    "CarSpawnMarker"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "IsOnScreen::InOnScreen::IsOnScreen"
-                  },
-                  "parameters": [
-                    "CarSpawnMarker",
-                    "InOnScreen",
-                    "0",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "BlackCar2",
-                    "",
-                    "",
-                    "\"Objects\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Rozszerzenie_bez_tytułu::BlackCar::SetDirection"
-                  },
-                  "parameters": [
-                    "BlackCar2",
-                    "CarSpawnMarker.Direction",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "BlackCar2",
-                    "Direction",
-                    "=",
-                    "CarSpawnMarker.Direction"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "BlackCar2",
-                    "Scale",
-                    "=",
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
-                    "BlackCar2",
-                    "=",
-                    "CarSpawnMarker.CenterX()",
-                    "=",
-                    "CarSpawnMarker.CenterY()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "CarsVars.Spawned",
-                    "+",
-                    "1"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DebuggerTools::Pause"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DebuggerTools::EnableDebugDraw"
-                      },
-                      "parameters": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "Distance"
                   },
                   "parameters": [
-                    "CarsVars.Spawned",
-                    ">",
-                    "CarsVars.MaxCars - 1"
+                    "Cars",
+                    "Cars",
+                    "120",
+                    ""
                   ]
                 },
                 {
@@ -10016,16 +12901,611 @@
                     "",
                     "Cars"
                   ]
-                },
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
                     "Cars",
-                    "InOnScreen",
-                    "0",
+                    "Cars",
+                    "",
+                    "",
                     ""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "for (let i = 0; i < objects.length; i++) {",
+                "    for (let j = 0; j < objects.length; j++) {",
+                "        let car1 = objects[i]",
+                "        let car2 = objects[j]",
+                "        if (car1 != car2) {",
+                "            if (car1.getDistanceToObject(car2)  < 100) {",
+                "                let dir1 = car1.getVariables().get(\"Direction\").getAsNumber();",
+                "                let dir2 = car2.getVariables().get(\"Direction\").getAsNumber();",
+                "                let speed1 = car1.getVariables().get(\"Speed\").getAsNumber();",
+                "                let speed2 = car2.getVariables().get(\"Speed\").getAsNumber();",
+                "",
+                "                // Depending on the current speed of the car stop one of them.",
+                "                if (dir1 == dir2) {",
+                "                    if (speed1 == 0) {",
+                "                        speed1 = 2",
+                "                    }",
+                "                    else {",
+                "                        speed1 = 0",
+                "                    }",
+                "                    if (speed2 == 0) {",
+                "                        speed2 = 2",
+                "                    }",
+                "                    else {",
+                "                        speed2 = 0",
+                "                    }",
+                "                    car1.getVariables().get(\"Speed\").setNumber(speed1);",
+                "                    car2.getVariables().get(\"Speed\").setNumber(speed2);",
+                "                    ",
+                "",
+                "                }",
+                "            }",
+                "        }",
+                "    }",
+                "",
+                "}",
+                ""
+              ],
+              "parameterObjects": "Cars",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Cars spawning",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Cars respawn timer\"",
+                    ">=",
+                    "0.2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Cars respawn timer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CarsVars.CurrentCarID",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Create a random car by spawning it on a spawn location of a spawn marker, scale it and color basing on the hues it has."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "CarsVars.Spawned",
+                        "<=",
+                        "CarsVars.MaxCars"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "CarSpawnMarker"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                      },
+                      "parameters": [
+                        "CarSpawnMarker",
+                        "InOnScreen",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "CreateByName"
+                      },
+                      "parameters": [
+                        "",
+                        "Cars",
+                        "\"Vehicle\" + ToString(RandomInRange(1,2))",
+                        "",
+                        "",
+                        "\"Objects\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Rozszerzenie_bez_tytułu::BlackCar::SetDirection"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "CarSpawnMarker.Direction",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "Direction",
+                        "=",
+                        "CarSpawnMarker.Direction"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "Scale",
+                        "=",
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "=",
+                        "CarSpawnMarker.CenterX()",
+                        "=",
+                        "CarSpawnMarker.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CarsVars.Spawned",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "Effect",
+                        "\"HSL\"",
+                        "\"hue\"",
+                        "Cars.Hues[RandomInRange(0, Cars.VariableChildCount(Hues) - 1)]"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "ToString(Cars.VariableChildCount(Hues))",
+                        "\"info\"",
+                        "\"HUE\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "CrossingBehavior",
+                        "=",
+                        "RandomInRange(0,2)"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DebuggerTools::Pause"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DebuggerTools::EnableDebugDraw"
+                          },
+                          "parameters": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "CarsVars.Spawned",
+                        ">",
+                        "CarsVars.MaxCars - 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "Cars"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "InOnScreen",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Cars",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CarsVars.Spawned",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CenterX"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "<",
+                        "-CameraSettings.BoundariesSpan / 2 - 800"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Cars",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CarsVars.Spawned",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CenterX"
+                      },
+                      "parameters": [
+                        "Cars",
+                        ">",
+                        "CameraSettings.BoundariesSpan / 2 + 800"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Cars",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CarsVars.Spawned",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CenterY"
+                      },
+                      "parameters": [
+                        "Cars",
+                        "<",
+                        "-CameraSettings.BoundariesSpan / 2 - 800"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Cars",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CarsVars.Spawned",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CenterY"
+                      },
+                      "parameters": [
+                        "Cars",
+                        ">",
+                        "CameraSettings.BoundariesSpan / 2 + 800"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Cars",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "CarsVars.Spawned",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "\"Cars on scene :\" + CarsVars.Spawned",
+                        "\"info\"",
+                        "\"CARS\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 226,
+          "colorG": 144,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Buildings hovers",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Buildings",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Gameplay.SlotsOwned",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "StatusBar",
+                    "Text",
+                    "=",
+                    "Buildings.BuildingName"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Slots purchasing",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Spot",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
                   ]
                 }
               ],
@@ -10035,23 +13515,135 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Cars",
+                    "BuySpotUI",
                     ""
                   ]
                 },
                 {
                   "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Spot",
+                    "IsSelected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "BuySpotUI",
+                    "BuySpotUI",
+                    "",
+                    "",
+                    "\"UI Modals\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AlignObject::ToSceneCenter"
+                  },
+                  "parameters": [
+                    "",
+                    "BuySpotUI",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AlignObject::ToSceneMiddle"
+                  },
+                  "parameters": [
+                    "",
+                    "BuySpotUI",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuySpotUIBehavior::BuySpotUI::SetPrice"
+                  },
+                  "parameters": [
+                    "BuySpotUI",
+                    "Spot.Price",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Spot",
+                    "IsSelected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuySpotUIBehavior::BuySpotUI::BuyConfirmed"
+                  },
+                  "parameters": [
+                    "BuySpotUI",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "CarsVars.Spawned",
-                    "-",
-                    "1"
+                    "Gameplay.SlotsOwned",
+                    "=",
+                    "Gameplay.SlotsOwned + 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Spot",
+                    "IsSelected",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Spot",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BuySpotUI",
+                    ""
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -10065,7 +13657,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -10098,23 +13690,7 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
@@ -10131,23 +13707,7 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
@@ -10164,23 +13724,7 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
@@ -10192,28 +13736,12 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "Objects",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
@@ -10248,23 +13776,7 @@
           "renderingType": "",
           "visibility": false,
           "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
@@ -10281,23 +13793,7 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -11086,6 +14582,81 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "CarsHandling",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "CarsHandling",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "description": "Originally automatically extracted from events of the project",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "fullName": "Delete car that is out of the map",
+          "functionType": "Action",
+          "name": "DeleteCarOutOfMap",
+          "sentence": "Delete _PARAM1_ when it is out of the map bounds. Decrement _PARAM2_ - the number of cars on the screen.",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Cars",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"Deleting car\"",
+                    "\"info\"",
+                    "\"CARS\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The cars to delete",
+              "name": "Cars",
+              "supplementaryInformation": "Rozszerzenie_bez_tytułu::BlackCar",
+              "type": "objectList"
+            },
+            {
+              "description": "The variable that holds the number of cars on screen",
+              "name": "CarsOnScreen",
+              "supplementaryInformation": "sceneCarsOnScreen",
+              "type": "identifier"
+            },
+            {
+              "description": "",
+              "name": "Unnamed",
+              "type": "sceneName"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "",
@@ -12100,7 +15671,7 @@
           "description": "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
           "fullName": "YSort",
           "name": "YSort",
-          "objectType": "Sprite",
+          "objectType": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -12131,7 +15702,7 @@
                       "parameters": [
                         "Object",
                         "=",
-                        "Object.Y() + Object.Variable(ySortOffset)"
+                        "Object.Y() + Object.Width() / 2"
                       ]
                     }
                   ]
@@ -12141,71 +15712,12 @@
                 {
                   "description": "Object",
                   "name": "Object",
-                  "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
                   "description": "Behavior",
                   "name": "Behavior",
                   "supplementaryInformation": "YSort::YSort",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
-        },
-        {
-          "description": "",
-          "fullName": "",
-          "name": "Building",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Condition",
-              "name": "Function",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "",
-                        "yes",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "YSort::Building",
                   "type": "behavior"
                 }
               ],
