@@ -22,8 +22,8 @@
     "name": "SREM Easy",
     "description": "",
     "author": "",
-    "windowWidth": 800,
-    "windowHeight": 600,
+    "windowWidth": 1024,
+    "windowHeight": 768,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -3594,6 +3594,53 @@
         "kind": "image",
         "metadata": "",
         "name": "ui\\panel-light-hover.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fonts/NotoSansJP-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\NotoSansJP-Bold.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "ui/panel-black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui\\panel-black.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/estates/estate0/base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\estates\\estate0\\base.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/estates/estate0/floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\estates\\estate0\\floor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/estates/estate0/foundation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\estates\\estate0\\foundation.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "buildings/estates/estate0/roof.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "buildings\\estates\\estate0\\roof.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -16164,7 +16211,7 @@
         "gridColor": 0,
         "gridAlpha": 0.36,
         "snap": false,
-        "zoomFactor": 0.7620391237426354,
+        "zoomFactor": 0.6041654220619391,
         "windowMask": false
       },
       "objectsGroups": [
@@ -16303,6 +16350,14 @@
               "name": "ConstructionSiteBig"
             }
           ]
+        },
+        {
+          "name": "Estates",
+          "objects": [
+            {
+              "name": "Estate0"
+            }
+          ]
         }
       ],
       "variables": [
@@ -16430,11 +16485,12 @@
           "depth": 1,
           "height": 31,
           "layer": "UI",
+          "locked": true,
           "name": "StatusBar",
           "persistentUuid": "5e23b198-0f4e-45e8-9b8d-cdd601cda80a",
           "width": 602,
           "x": 193,
-          "y": 556,
+          "y": 696,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -16601,7 +16657,7 @@
           "persistentUuid": "b75fd632-8fba-4b3f-bd47-836f88082d18",
           "width": 157,
           "x": 21,
-          "y": 547,
+          "y": 687,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -18233,11 +18289,12 @@
           "height": 51,
           "keepRatio": true,
           "layer": "UI",
+          "locked": true,
           "name": "NewPanelSprite",
           "persistentUuid": "141f7d10-28a8-4fb2-a24a-58d279b85556",
           "width": 602,
           "x": 192,
-          "y": 547,
+          "y": 687,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -22606,7 +22663,7 @@
           "depth": 1,
           "height": 68,
           "keepRatio": true,
-          "layer": "Markers (invisible)",
+          "layer": "Objects",
           "name": "Vehicle2",
           "persistentUuid": "794693bb-e622-4bb2-8c7b-2a8200dba7f9",
           "width": 68,
@@ -28009,7 +28066,7 @@
           "persistentUuid": "9d3f33c3-bcd3-4d18-82f3-e0e03512ad0c",
           "width": 182,
           "x": 72,
-          "y": 505,
+          "y": 645,
           "zOrder": 2383,
           "numberProperties": [],
           "stringProperties": [],
@@ -28026,7 +28083,7 @@
           "persistentUuid": "c2c5078b-1f71-4c85-ae26-581989d0db23",
           "width": 0,
           "x": 23,
-          "y": 440,
+          "y": 580,
           "zOrder": 2384,
           "numberProperties": [],
           "stringProperties": [],
@@ -28043,7 +28100,7 @@
           "persistentUuid": "be5325ec-d293-45e0-9d90-9345cbe97036",
           "width": 0,
           "x": 84,
-          "y": 440,
+          "y": 580,
           "zOrder": 2385,
           "numberProperties": [],
           "stringProperties": [],
@@ -28060,7 +28117,7 @@
           "persistentUuid": "59886e36-2280-420b-bc8c-63a44df4d38d",
           "width": 0,
           "x": 164,
-          "y": 440,
+          "y": 580,
           "zOrder": 2386,
           "numberProperties": [],
           "stringProperties": [],
@@ -28077,7 +28134,7 @@
           "persistentUuid": "0b2ff468-d7db-4ad9-acae-796f3dab34c3",
           "width": 0,
           "x": 31,
-          "y": 500,
+          "y": 640,
           "zOrder": 2387,
           "numberProperties": [],
           "stringProperties": [],
@@ -28094,7 +28151,7 @@
           "persistentUuid": "45da35ea-8bc5-4133-86fd-e083afb0105b",
           "width": 0,
           "x": 241,
-          "y": 501,
+          "y": 641,
           "zOrder": 2388,
           "numberProperties": [],
           "stringProperties": [],
@@ -28111,7 +28168,7 @@
           "persistentUuid": "148db27a-7e07-4e61-b42b-d2bd03f5aaa4",
           "width": 0,
           "x": 264,
-          "y": 504,
+          "y": 644,
           "zOrder": 2389,
           "numberProperties": [],
           "stringProperties": [],
@@ -28129,6 +28186,23 @@
           "x": 373,
           "y": -204,
           "zOrder": 2390,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1203,
+          "keepRatio": true,
+          "layer": "Objects",
+          "name": "Estate0",
+          "persistentUuid": "f0c22208-a207-4650-ac48-60a6238f10d2",
+          "width": 387,
+          "x": 223,
+          "y": 831,
+          "zOrder": 2391,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28177,7 +28251,7 @@
           "string": "Status bar",
           "font": "NotoSans Font",
           "textAlignment": "center",
-          "characterSize": 24,
+          "characterSize": 20,
           "color": {
             "b": 255,
             "g": 255,
@@ -28201,7 +28275,7 @@
             "font": "NotoSans Font",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 24,
+            "characterSize": 20,
             "color": "255;255;255"
           }
         },
@@ -32152,11 +32226,63 @@
             }
           ],
           "content": {}
+        },
+        {
+          "assetStoreId": "",
+          "name": "Estate0",
+          "type": "RealEstate::RealEstate",
+          "variables": [
+            {
+              "name": "IsSelected",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Building hover outline",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;73;73"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Clickable",
+              "type": "Clickables::Clickable"
+            },
+            {
+              "name": "YSort",
+              "type": "YSort::YSort"
+            }
+          ],
+          "content": {
+            "InhabitantsPerFloor": 0,
+            "MaintenanceCost": 0,
+            "MaxFloors": 20,
+            "BaseFloorImage": "",
+            "PartsScale": 0.7,
+            "FloorCost": 250
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Estates",
+            "children": [
+              {
+                "objectName": "Estate0"
+              }
+            ]
+          },
           {
             "folderName": "Utility",
             "children": [
@@ -32363,11 +32489,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Game start",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32407,10 +32535,22 @@
                     "\"Make spot redish\"",
                     "no"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Estate0",
+                    "Effect",
+                    "\"Building hover outline\"",
+                    "no"
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32425,6 +32565,7 @@
               "actions": []
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32457,6 +32598,7 @@
         },
         {
           "disabled": true,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -32479,12 +32621,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Mouse navigation",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -32505,6 +32647,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -32524,6 +32667,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32571,6 +32715,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32618,6 +32763,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32665,6 +32811,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32712,6 +32859,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32743,6 +32891,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -32774,6 +32923,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -32803,11 +32953,13 @@
           "colorG": 233,
           "colorR": 58,
           "creationTime": 0,
+          "folded": true,
           "name": "UI Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32833,6 +32985,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32869,6 +33022,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32905,6 +33059,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32941,6 +33096,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -32958,6 +33114,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32975,6 +33132,7 @@
               "actions": []
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32992,6 +33150,7 @@
               "actions": []
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -33022,6 +33181,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -33046,6 +33206,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -33070,11 +33231,13 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -33112,6 +33275,7 @@
               ],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Cars",
                   "conditions": [],
@@ -33122,12 +33286,14 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
+                      "folded": true,
                       "name": "Turning",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
                       "events": [
                         {
                           "disabled": true,
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -33145,6 +33311,7 @@
                           "actions": []
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -33157,6 +33324,7 @@
                           "comment": "Handle each crossing type turning (reassign the direction the car will go)."
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -33174,6 +33342,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33224,6 +33393,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33274,6 +33444,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33324,6 +33495,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33376,6 +33548,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -33393,6 +33566,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33432,6 +33606,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33473,6 +33648,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -33490,6 +33666,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33529,6 +33706,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33570,6 +33748,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -33587,6 +33766,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33626,6 +33806,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33667,6 +33848,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -33684,6 +33866,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33723,6 +33906,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33764,6 +33948,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -33781,6 +33966,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33830,6 +34016,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33881,6 +34068,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -33898,6 +34086,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33947,6 +34136,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -33998,6 +34188,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -34015,6 +34206,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -34054,6 +34246,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -34095,6 +34288,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -34112,6 +34306,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -34161,6 +34356,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -34212,6 +34408,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -34231,6 +34428,7 @@
                       "parameters": []
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": []
@@ -34240,11 +34438,13 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
+                      "folded": true,
                       "name": "Reassign the direction of the car variable",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -34257,6 +34457,7 @@
                           "comment": "Move the cars in the direction they are assignment to"
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -34295,6 +34496,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -34333,6 +34535,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -34371,6 +34574,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -34416,11 +34620,13 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
+                      "folded": true,
                       "name": "Reposition after turning (on the crossroads or a road turn)",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -34433,6 +34639,7 @@
                           "comment": "Position the car with an offset (after it has made to the turning point) so that it is on the correct side of the road"
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -34460,6 +34667,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -34490,6 +34698,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -34520,6 +34729,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -34550,6 +34760,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -34580,6 +34791,20 @@
                               ]
                             },
                             {
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Move the car away from the the road crossing to avoid glitches"
+                            },
+                            {
+                              "folded": true,
                               "infiniteLoopWarning": true,
                               "type": "BuiltinCommonInstructions::While",
                               "whileConditions": [
@@ -34613,7 +34838,7 @@
                                   "parameters": [
                                     "Cars",
                                     "+",
-                                    "DX * 2 * Cars.Speed"
+                                    "DX * 2 "
                                   ]
                                 },
                                 {
@@ -34623,7 +34848,7 @@
                                   "parameters": [
                                     "Cars",
                                     "+",
-                                    "DY * Cars.Speed"
+                                    "DY"
                                   ]
                                 }
                               ]
@@ -34650,11 +34875,13 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
+                      "folded": true,
                       "name": "Offset the car according to it's current direction",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 27,
@@ -34667,6 +34894,7 @@
                           "comment": "Actually do the move"
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -34696,6 +34924,7 @@
                       "parameters": []
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": []
@@ -34732,6 +34961,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34749,6 +34979,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::JsCode",
                   "inlineCode": [
                     "for (let i = 0; i < objects.length; i++) {",
@@ -34808,6 +35039,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34845,6 +35077,7 @@
               ],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -34857,6 +35090,7 @@
                   "comment": "Create a random car by spawning it on a spawn location of a spawn marker, scale it and color basing on the hues it has."
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -34996,6 +35230,7 @@
                   "events": [
                     {
                       "disabled": true,
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -35011,6 +35246,7 @@
                     },
                     {
                       "disabled": true,
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -35031,6 +35267,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -35047,6 +35284,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -35073,6 +35311,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": []
@@ -35093,8 +35332,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "UserInterface.IsModalOnScreen",
+                    "False",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SourisSurObjet"
@@ -35139,11 +35389,13 @@
           "colorG": 2,
           "colorR": 208,
           "creationTime": 0,
+          "folded": true,
           "name": "Slots purchasing",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -35156,6 +35408,7 @@
               "comment": "Hover and selection events\n"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35172,6 +35425,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -35201,6 +35455,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -35231,6 +35486,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -35260,6 +35516,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -35291,6 +35548,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -35303,6 +35561,7 @@
               "comment": "The spot is clicked\n"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35350,6 +35609,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -35430,6 +35690,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -35442,6 +35703,7 @@
               "comment": "Purchase confirmed\n"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35530,6 +35792,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35576,6 +35839,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35603,6 +35867,42 @@
                   ]
                 }
               ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BluePrintDialog::BluePrintDialog::ChoiceConfirmed"
+                  },
+                  "parameters": [
+                    "BluePrintDialog",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BluePrintDialog",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "UserInterface.IsModalOnScreen",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -35618,6 +35918,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35642,6 +35943,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35694,22 +35996,26 @@
                   "colorG": 231,
                   "colorR": 248,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Buildings development",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": []
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "Buildings",
                       "conditions": [],
                       "actions": [],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -35758,6 +36064,7 @@
                           ],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -35774,6 +36081,7 @@
                               "actions": [],
                               "events": [
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -35803,6 +36111,7 @@
                                   ],
                                   "events": [
                                     {
+                                      "folded": true,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -35845,6 +36154,7 @@
                                       ]
                                     },
                                     {
+                                      "folded": true,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -35887,6 +36197,7 @@
                                       ]
                                     },
                                     {
+                                      "folded": true,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -35933,6 +36244,7 @@
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -35969,12 +36281,14 @@
                               ],
                               "events": [
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::ForEach",
                                   "object": "ConstructionSites",
                                   "conditions": [],
                                   "actions": [],
                                   "events": [
                                     {
+                                      "folded": true,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -36076,14 +36390,166 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Estates handling",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "RealEstate::RealEstate::TryBuildFloor"
+                  },
+                  "parameters": [
+                    "Estate0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Gameplay.Cash",
+                    "-",
+                    "Estate0.GetFloorCost()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Estate0",
+                    "IsSelected",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Clickables::Clickable::WasClicked"
+                  },
+                  "parameters": [
+                    "Estate0",
+                    "Clickable",
+                    "\"Left\"",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "CameraSettings.InteractiveLayers",
+                  "valueIteratorVariableName": "LayerName",
+                  "keyIteratorVariableName": "LayerIndex",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenCameraPosition2"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Estate Tween on layer \" + VariableString(LayerName)",
+                            "Estate0.CenterX()",
+                            "Estate0.Y()",
+                            "VariableString(LayerName)",
+                            "\"linear\"",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "RealEstate::RealEstate::HasHover"
+                  },
+                  "parameters": [
+                    "Estate0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Estate0",
+                    "Effect",
+                    "\"Building hover outline\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "RealEstate::RealEstate::HasHover"
+                  },
+                  "parameters": [
+                    "Estate0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Estate0",
+                    "Effect",
+                    "\"Building hover outline\"",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -36176,7 +36642,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "Objects",
           "renderingType": "",
           "visibility": true,
@@ -36211,7 +36677,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -37066,7 +37532,49 @@
           "fullName": "",
           "isUsingLegacyInstancesRenderer": false,
           "name": "DefaultButton",
-          "eventsFunctions": [],
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Condition",
+              "name": "IsClicked",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "BaseButton",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "DefaultButton::DefaultButton",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
           "propertyDescriptors": [],
           "objects": [
             {
@@ -62940,7 +63448,74 @@
       "tags": [],
       "authorIds": [],
       "dependencies": [],
-      "globalVariables": [],
+      "globalVariables": [
+        {
+          "name": "Blueprints",
+          "type": "array",
+          "children": [
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "FloorCost",
+                  "type": "number",
+                  "value": 1000
+                },
+                {
+                  "name": "Inhabitants",
+                  "type": "number",
+                  "value": 60
+                },
+                {
+                  "name": "MaintenanceCost",
+                  "type": "number",
+                  "value": 600
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Alpha"
+                },
+                {
+                  "name": "Price",
+                  "type": "number",
+                  "value": 400
+                }
+              ]
+            },
+            {
+              "type": "structure",
+              "children": [
+                {
+                  "name": "FloorCost",
+                  "type": "number",
+                  "value": 2000
+                },
+                {
+                  "name": "Inhabitants",
+                  "type": "number",
+                  "value": 50
+                },
+                {
+                  "name": "MaintenanceCost",
+                  "type": "number",
+                  "value": 80
+                },
+                {
+                  "name": "Name",
+                  "type": "string",
+                  "value": "Beta"
+                },
+                {
+                  "name": "Price",
+                  "type": "number",
+                  "value": 800
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [],
@@ -62958,37 +63533,6 @@
           "isUsingLegacyInstancesRenderer": false,
           "name": "BluePrintDialog",
           "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Condition",
-              "name": "Function",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "BluePrintDialog::BluePrintDialog",
-                  "type": "object"
-                }
-              ],
-              "objectGroups": []
-            },
             {
               "fullName": "",
               "functionType": "Action",
@@ -63045,7 +63589,7 @@
                       "parameters": [
                         "Object",
                         "=",
-                        "SingleBlueprintPanel.Blueprint"
+                        "SingleBlueprintPanel.BlueprintIndex"
                       ]
                     }
                   ],
@@ -63088,6 +63632,16 @@
                             "SingleBlueprintPanel",
                             "IsActive",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BluePrintDialog::BluePrintDialog::SetActiveBlueprint"
+                          },
+                          "parameters": [
+                            "Object",
+                            "SingleBlueprintPanel.BlueprintIndex",
+                            ""
                           ]
                         }
                       ]
@@ -63200,6 +63754,86 @@
                         "SingleBlueprintPanel",
                         "ui\\panel-light.png",
                         ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "BluePrintDialog::BluePrintDialog",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "SetActiveBlueprint",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "InfoText",
+                        "=",
+                        "\"Cost of blueprint: [color=red]\" + ToString(Blueprints[Blueprint].Price) + \"[/color]\nFloor construction cost: [color=red]\" + ToString(Blueprints[Blueprint].FloorCost) + \"[/color]\nFloor maintenance cost: [color=red]\" + ToString(Blueprints[Blueprint].MaintenanceCost) + \"[/color]\nInhabitants per floor: [color=yellow]\" + ToString(Blueprints[Blueprint].Inhabitants) + \"[/color]\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "BluePrintDialog::BluePrintDialog",
+                  "type": "object"
+                },
+                {
+                  "description": "Blueprint structure index",
+                  "name": "Blueprint",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Condition",
+              "name": "ChoiceConfirmed",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DefaultButton::DefaultButton::IsClicked"
+                      },
+                      "parameters": [
+                        "ConfirmButton",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
                       ]
                     }
                   ]
@@ -63348,18 +63982,18 @@
               "string": "Please choose a blueprint for this Real Estate",
               "font": "NotoSans Font",
               "textAlignment": "center",
-              "characterSize": 28,
+              "characterSize": 30,
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
+                "b": 0,
+                "g": 0,
+                "r": 0
               },
               "content": {
                 "bold": false,
                 "isOutlineEnabled": false,
                 "isShadowEnabled": false,
                 "italic": false,
-                "outlineColor": "255;255;255",
+                "outlineColor": "0;0;0",
                 "outlineThickness": 2,
                 "shadowAngle": 90,
                 "shadowBlurRadius": 2,
@@ -63372,8 +64006,8 @@
                 "font": "NotoSans Font",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
-                "characterSize": 28,
-                "color": "255;255;255"
+                "characterSize": 30,
+                "color": "0;0;0"
               }
             },
             {
@@ -63390,7 +64024,7 @@
               "width": 32,
               "variables": [
                 {
-                  "name": "Blueprint",
+                  "name": "BlueprintIndex",
                   "type": "number",
                   "value": -1
                 },
@@ -63595,45 +64229,37 @@
             },
             {
               "assetStoreId": "",
-              "bold": false,
-              "italic": false,
-              "name": "NewText",
-              "smoothed": true,
-              "type": "TextObject::Text",
-              "underlined": false,
+              "name": "InfoText",
+              "type": "BBText::BBText",
               "variables": [],
               "effects": [],
               "behaviors": [],
-              "string": "Text",
-              "font": "",
-              "textAlignment": "left",
-              "characterSize": 20,
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
-              },
               "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Text",
-                "font": "",
-                "textAlignment": "left",
-                "verticalTextAlignment": "top",
-                "characterSize": 20,
-                "color": "0;0;0"
+                "text": "Cost of blueprint: [color=red]$120[/color]\nFloor construction cost: [color=red]$400[/color]\nFloor maintenance cost: [color=red]$600[/color]\nInhabitants per floor: [color=yellow]20[/color]\n\n\n",
+                "opacity": 255,
+                "fontSize": 20,
+                "visible": true,
+                "color": "255;255;255",
+                "fontFamily": "fonts\\NotoSansJP-Bold.ttf",
+                "align": "center",
+                "wordWrap": true
               }
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 4,
+              "height": 32,
+              "leftMargin": 4,
+              "name": "PanelBlack",
+              "rightMargin": 4,
+              "texture": "ui\\panel-black.png",
+              "tiled": false,
+              "topMargin": 4,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": []
             }
           ],
           "objectsFolderStructure": {
@@ -63641,6 +64267,9 @@
             "children": [
               {
                 "objectName": "Background"
+              },
+              {
+                "objectName": "PanelBlack"
               },
               {
                 "objectName": "ConfirmButton"
@@ -63661,7 +64290,7 @@
                 "objectName": "Blueprint3"
               },
               {
-                "objectName": "NewText"
+                "objectName": "InfoText"
               }
             ]
           },
@@ -63745,9 +64374,9 @@
               "name": "ChooseBlueprintLabel",
               "persistentUuid": "07dfccb3-1ec5-4126-b625-0b7cc7bda67d",
               "width": 714,
-              "x": -319,
-              "y": -257,
-              "zOrder": 3,
+              "x": -324,
+              "y": -253,
+              "zOrder": 665,
               "numberProperties": [],
               "stringProperties": [],
               "initialVariables": []
@@ -63767,6 +64396,11 @@
               "numberProperties": [],
               "stringProperties": [],
               "initialVariables": [
+                {
+                  "name": "BlueprintIndex",
+                  "type": "number",
+                  "value": 1
+                },
                 {
                   "name": "Blueprint",
                   "type": "number",
@@ -63789,6 +64423,11 @@
               "numberProperties": [],
               "stringProperties": [],
               "initialVariables": [
+                {
+                  "name": "BlueprintIndex",
+                  "type": "number",
+                  "value": 0
+                },
                 {
                   "name": "Blueprint",
                   "type": "number",
@@ -63844,6 +64483,11 @@
               "stringProperties": [],
               "initialVariables": [
                 {
+                  "name": "BlueprintIndex",
+                  "type": "number",
+                  "value": 2
+                },
+                {
                   "name": "Blueprint",
                   "type": "number",
                   "value": 2
@@ -63863,6 +64507,40 @@
               "x": 101,
               "y": -174,
               "zOrder": 8,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 115,
+              "keepRatio": true,
+              "layer": "",
+              "name": "InfoText",
+              "persistentUuid": "37688cee-5122-4c7e-86a5-03da257c56b2",
+              "width": 370,
+              "x": -319,
+              "y": 213,
+              "zOrder": 65,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 124,
+              "keepRatio": true,
+              "layer": "",
+              "name": "PanelBlack",
+              "persistentUuid": "3768de42-c640-401e-8cff-f32f01af35db",
+              "width": 328,
+              "x": -328,
+              "y": 210,
+              "zOrder": 64,
               "numberProperties": [],
               "stringProperties": [],
               "initialVariables": []
@@ -63924,6 +64602,12 @@
                         "",
                         "MouseButton"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -64067,6 +64751,909 @@
         }
       ],
       "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "Real Estate",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNvZmEtb3V0bGluZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0yMSA5VjdDMjEgNS4zNSAxOS42NSA0IDE4IDRIMTRDMTMuMjMgNCAxMi41MyA0LjMgMTIgNC43OEMxMS40NyA0LjMgMTAuNzcgNCAxMCA0SDZDNC4zNSA0IDMgNS4zNSAzIDdWOUMxLjM1IDkgMCAxMC4zNSAwIDEyVjE3QzAgMTguNjUgMS4zNSAyMCAzIDIwVjIySDVWMjBIMTlWMjJIMjFWMjBDMjIuNjUgMjAgMjQgMTguNjUgMjQgMTdWMTJDMjQgMTAuMzUgMjIuNjUgOSAyMSA5TTE0IDZIMThDMTguNTUgNiAxOSA2LjQ1IDE5IDdWOS43OEMxOC4zOSAxMC4zMyAxOCAxMS4xMiAxOCAxMlYxNEgxM1Y3QzEzIDYuNDUgMTMuNDUgNiAxNCA2TTUgN0M1IDYuNDUgNS40NSA2IDYgNkgxMEMxMC41NSA2IDExIDYuNDUgMTEgN1YxNEg2VjEyQzYgMTEuMTIgNS42MSAxMC4zMyA1IDkuNzhWN00yMiAxN0MyMiAxNy41NSAyMS41NSAxOCAyMSAxOEgzQzIuNDUgMTggMiAxNy41NSAyIDE3VjEyQzIgMTEuNDUgMi40NSAxMSAzIDExUzQgMTEuNDUgNCAxMlYxNkgyMFYxMkMyMCAxMS40NSAyMC40NSAxMSAyMSAxMVMyMiAxMS40NSAyMiAxMlYxN1oiIC8+PC9zdmc+",
+      "name": "RealEstate",
+      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/67c6b3b9c6d35a69a7078d5b469a1ebece11c9e82d527bb401911d514c3a6898_sofa-outline.svg",
+      "shortDescription": "",
+      "version": "",
+      "description": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [
+        {
+          "name": "Blueprint",
+          "type": "structure",
+          "children": []
+        }
+      ],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": [
+        {
+          "areaMaxX": 192,
+          "areaMaxY": 151,
+          "areaMaxZ": 1,
+          "areaMinX": -63,
+          "areaMinY": -643,
+          "areaMinZ": 0,
+          "defaultName": "",
+          "description": "",
+          "fullName": "",
+          "isUsingLegacyInstancesRenderer": false,
+          "name": "RealEstate",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "BuildFloor",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "RealEstate::RealEstate::PropertyNumFloors"
+                      },
+                      "parameters": [
+                        "Object",
+                        "<",
+                        "MaxFloors"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Floor",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Floor",
+                        "Scale",
+                        "=",
+                        "PartsScale"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Floor",
+                        "=",
+                        "Foundation.CenterX()",
+                        "=",
+                        "Foundation.CenterY() - NumFloors * FloorHeight"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RealEstate::RealEstate::SetPropertyNumFloors"
+                      },
+                      "parameters": [
+                        "Object",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "RealEstate::RealEstate",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Condition",
+              "name": "TryBuildFloor",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "RealEstate::RealEstate::PropertyNumFloors"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">=",
+                        "MaxFloors"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "RealEstate::RealEstate::PropertyNumFloors"
+                      },
+                      "parameters": [
+                        "Object",
+                        "<",
+                        "MaxFloors"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Floor",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Floor",
+                        "Scale",
+                        "=",
+                        "PartsScale"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Floor",
+                        "=",
+                        "Foundation.CenterX()",
+                        "=",
+                        "Foundation.CenterY() - NumFloors * FloorHeight"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RealEstate::RealEstate::SetPropertyNumFloors"
+                      },
+                      "parameters": [
+                        "Object",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Re-append the roof"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Roof",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Roof",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Roof",
+                            "Scale",
+                            "=",
+                            "PartsScale"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "Roof",
+                            "=",
+                            "Foundation.CenterX()",
+                            "=",
+                            "Foundation.CenterY() - NumFloors * FloorHeight + 2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "RealEstate::RealEstate",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Expression",
+              "name": "GetFloorCost",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "FloorCost"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "RealEstate::RealEstate",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Condition",
+              "name": "HasHover",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Parts",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "RealEstate::RealEstate",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Number of floors of building",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "NumFloors"
+            },
+            {
+              "value": "10",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "MaxFloors"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Name"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "FloorCost"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "MaintenanceCost"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "InhabitantsPerFloor"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "Happiness level in range (0-100)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "HappinessLevel"
+            },
+            {
+              "value": "",
+              "type": "Resource",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "image"
+              ],
+              "name": "BaseFloorImage"
+            },
+            {
+              "value": "20",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "name": "FloorHeight"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "The scale of the parts of the real estate ",
+              "description": "The scale of the parts of the real estate (roof, floors, helipad, etc..)",
+              "group": "",
+              "extraInformation": [],
+              "name": "PartsScale"
+            }
+          ],
+          "objects": [
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "BaseFloor",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "buildings\\estates\\estate0\\base.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 20,
+                                "y": 89
+                              },
+                              {
+                                "x": 320,
+                                "y": 89
+                              },
+                              {
+                                "x": 320,
+                                "y": 194
+                              },
+                              {
+                                "x": 20,
+                                "y": 194
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "Roof",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "buildings\\estates\\estate0\\roof.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 1,
+                                "y": 0
+                              },
+                              {
+                                "x": 300,
+                                "y": 0
+                              },
+                              {
+                                "x": 300,
+                                "y": 150
+                              },
+                              {
+                                "x": 1,
+                                "y": 150
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "Floor",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "buildings\\estates\\estate0\\floor.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 20,
+                                "y": 89
+                              },
+                              {
+                                "x": 320,
+                                "y": 89
+                              },
+                              {
+                                "x": 320,
+                                "y": 194
+                              },
+                              {
+                                "x": 20,
+                                "y": 194
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "Foundation",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "buildings\\estates\\estate0\\foundation.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 0,
+                                "y": 0
+                              },
+                              {
+                                "x": 364,
+                                "y": 0
+                              },
+                              {
+                                "x": 364,
+                                "y": 182
+                              },
+                              {
+                                "x": 0,
+                                "y": 182
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "BaseFloor"
+              },
+              {
+                "objectName": "Roof"
+              },
+              {
+                "objectName": "Floor"
+              },
+              {
+                "objectName": "Foundation"
+              }
+            ]
+          },
+          "objectsGroups": [
+            {
+              "name": "Parts",
+              "objects": [
+                {
+                  "name": "BaseFloor"
+                },
+                {
+                  "name": "Floor"
+                },
+                {
+                  "name": "Roof"
+                },
+                {
+                  "name": "Foundation"
+                }
+              ]
+            }
+          ],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            },
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "Floors",
+              "renderingType": "",
+              "visibility": false,
+              "cameras": [],
+              "effects": [
+                {
+                  "effectType": "Scene3D::HemisphereLight",
+                  "name": "3D Light",
+                  "doubleParameters": {
+                    "elevation": 45,
+                    "intensity": 1,
+                    "rotation": 0
+                  },
+                  "stringParameters": {
+                    "groundColor": "64;64;64",
+                    "skyColor": "255;255;255",
+                    "top": "Y-"
+                  },
+                  "booleanParameters": {}
+                }
+              ]
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 172,
+              "keepRatio": true,
+              "layer": "Floors",
+              "name": "BaseFloor",
+              "persistentUuid": "a43b602c-e81a-4c48-8648-4b0ee79d5307",
+              "width": 255,
+              "x": -63,
+              "y": -21,
+              "zOrder": 1,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 0,
+              "height": 113,
+              "keepRatio": true,
+              "layer": "Floors",
+              "name": "Roof",
+              "persistentUuid": "b0eebbe0-c67f-4e28-abfd-c238a8d6829a",
+              "width": 226,
+              "x": -49,
+              "y": -31,
+              "zOrder": 2,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 0,
+              "height": 172.5,
+              "keepRatio": true,
+              "layer": "Floors",
+              "name": "Floor",
+              "persistentUuid": "00fc6f82-0ee9-45da-a5d8-f813c6c9c850",
+              "width": 255,
+              "x": -63,
+              "y": -43,
+              "zOrder": 0,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 0,
+              "height": 128,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Foundation",
+              "persistentUuid": "b5f94809-6367-449d-8c71-36a2a75f117a",
+              "width": 256,
+              "x": -64,
+              "y": 0,
+              "zOrder": -1,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "externalLayouts": []
