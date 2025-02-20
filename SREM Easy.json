@@ -3643,6 +3643,38 @@
         "name": "buildings\\estates\\estate0\\roof.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "ui/estate-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui\\estate-icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ui/charts-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui\\charts-icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ui/wrench-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui\\wrench-icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ui/build-floor-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui\\build-floor-icon.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -15977,184 +16009,189 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "BlankEmoteLeft"
-      },
-      {
-        "objectName": "BlankEmoteMid"
-      },
-      {
-        "objectName": "BoredEmote"
-      },
-      {
-        "objectName": "AngryEmote"
-      },
-      {
-        "objectName": "BoredEmoteMid"
-      },
-      {
-        "objectName": "AngryEmoteMid"
-      },
-      {
-        "objectName": "ConfusedEmoteMid"
-      },
-      {
-        "objectName": "ConfusedEmote"
-      },
-      {
-        "objectName": "DohEmoteMid"
-      },
-      {
-        "objectName": "ExclamationMark"
-      },
-      {
-        "objectName": "DohEmote"
-      },
-      {
-        "objectName": "HappyEmoteMid"
-      },
-      {
-        "objectName": "NeutralEmoteMid"
-      },
-      {
-        "objectName": "SadEmoteMid"
-      },
-      {
-        "objectName": "HappyEmote"
-      },
-      {
-        "objectName": "NeutralEmote"
-      },
-      {
-        "objectName": "QuestionMark"
-      },
-      {
-        "objectName": "SadEmote"
-      },
-      {
-        "objectName": "TalkingEmote2Mid"
-      },
-      {
-        "objectName": "TalkingEmote2"
-      },
-      {
-        "objectName": "TalkingEmoteMid"
-      },
-      {
-        "objectName": "VeryHappyEmoteMid"
-      },
-      {
-        "objectName": "TalkingEmote"
-      },
-      {
-        "objectName": "WorriedEmoteMid"
-      },
-      {
-        "objectName": "WorriedEmote"
-      },
-      {
-        "objectName": "VeryHappyEmote"
-      },
-      {
-        "objectName": "AlertEmote"
-      },
-      {
-        "objectName": "AngerEmote"
-      },
-      {
-        "objectName": "CashEmote"
-      },
-      {
-        "objectName": "BlankEmote"
-      },
-      {
-        "objectName": "BarsEmote"
-      },
-      {
-        "objectName": "CloudEmote"
-      },
-      {
-        "objectName": "CircleEmote"
-      },
-      {
-        "objectName": "CrossEmote"
-      },
-      {
-        "objectName": "Dots2Emote"
-      },
-      {
-        "objectName": "Dots1Emote"
-      },
-      {
-        "objectName": "DropEmote"
-      },
-      {
-        "objectName": "Dots3Emote"
-      },
-      {
-        "objectName": "ExclamationsEmote"
-      },
-      {
-        "objectName": "ExclamationEmote"
-      },
-      {
-        "objectName": "FaceangryEmote"
-      },
-      {
-        "objectName": "DropsEmote"
-      },
-      {
-        "objectName": "FacesadEmote"
-      },
-      {
-        "objectName": "FacehappyEmote"
-      },
-      {
-        "objectName": "HeartsEmote"
-      },
-      {
-        "objectName": "HeartbrokenEmote"
-      },
-      {
-        "objectName": "IdeaEmote"
-      },
-      {
-        "objectName": "LaughEmote"
-      },
-      {
-        "objectName": "MusicEmote"
-      },
-      {
-        "objectName": "HeartEmote"
-      },
-      {
-        "objectName": "SleepEmote"
-      },
-      {
-        "objectName": "QuestionEmote"
-      },
-      {
-        "objectName": "StarEmote"
-      },
-      {
-        "objectName": "SleepsEmote"
-      },
-      {
-        "objectName": "StarsEmote"
-      },
-      {
-        "objectName": "SwirlEmote"
-      },
-      {
-        "objectName": "EmoteAlert"
-      },
-      {
-        "objectName": "EmoteBars"
-      },
-      {
-        "objectName": "EmoteCash"
-      },
-      {
-        "objectName": "EmoteAnger"
+        "folderName": "Kenney Emotes",
+        "children": [
+          {
+            "objectName": "EmoteAnger"
+          },
+          {
+            "objectName": "EmoteCash"
+          },
+          {
+            "objectName": "EmoteBars"
+          },
+          {
+            "objectName": "EmoteAlert"
+          },
+          {
+            "objectName": "SwirlEmote"
+          },
+          {
+            "objectName": "StarsEmote"
+          },
+          {
+            "objectName": "StarEmote"
+          },
+          {
+            "objectName": "SleepsEmote"
+          },
+          {
+            "objectName": "QuestionEmote"
+          },
+          {
+            "objectName": "SleepEmote"
+          },
+          {
+            "objectName": "HeartEmote"
+          },
+          {
+            "objectName": "MusicEmote"
+          },
+          {
+            "objectName": "LaughEmote"
+          },
+          {
+            "objectName": "IdeaEmote"
+          },
+          {
+            "objectName": "HeartbrokenEmote"
+          },
+          {
+            "objectName": "HeartsEmote"
+          },
+          {
+            "objectName": "FacehappyEmote"
+          },
+          {
+            "objectName": "FacesadEmote"
+          },
+          {
+            "objectName": "FaceangryEmote"
+          },
+          {
+            "objectName": "DropsEmote"
+          },
+          {
+            "objectName": "DropEmote"
+          },
+          {
+            "objectName": "ExclamationEmote"
+          },
+          {
+            "objectName": "ExclamationsEmote"
+          },
+          {
+            "objectName": "Dots3Emote"
+          },
+          {
+            "objectName": "Dots1Emote"
+          },
+          {
+            "objectName": "Dots2Emote"
+          },
+          {
+            "objectName": "CrossEmote"
+          },
+          {
+            "objectName": "CircleEmote"
+          },
+          {
+            "objectName": "CloudEmote"
+          },
+          {
+            "objectName": "BarsEmote"
+          },
+          {
+            "objectName": "BlankEmote"
+          },
+          {
+            "objectName": "AngerEmote"
+          },
+          {
+            "objectName": "CashEmote"
+          },
+          {
+            "objectName": "VeryHappyEmote"
+          },
+          {
+            "objectName": "AlertEmote"
+          },
+          {
+            "objectName": "WorriedEmote"
+          },
+          {
+            "objectName": "WorriedEmoteMid"
+          },
+          {
+            "objectName": "TalkingEmote"
+          },
+          {
+            "objectName": "TalkingEmoteMid"
+          },
+          {
+            "objectName": "VeryHappyEmoteMid"
+          },
+          {
+            "objectName": "TalkingEmote2Mid"
+          },
+          {
+            "objectName": "SadEmote"
+          },
+          {
+            "objectName": "TalkingEmote2"
+          },
+          {
+            "objectName": "QuestionMark"
+          },
+          {
+            "objectName": "NeutralEmote"
+          },
+          {
+            "objectName": "HappyEmote"
+          },
+          {
+            "objectName": "SadEmoteMid"
+          },
+          {
+            "objectName": "ExclamationMark"
+          },
+          {
+            "objectName": "DohEmoteMid"
+          },
+          {
+            "objectName": "BlankEmoteMid"
+          },
+          {
+            "objectName": "NeutralEmoteMid"
+          },
+          {
+            "objectName": "HappyEmoteMid"
+          },
+          {
+            "objectName": "DohEmote"
+          },
+          {
+            "objectName": "AngryEmoteMid"
+          },
+          {
+            "objectName": "ConfusedEmote"
+          },
+          {
+            "objectName": "ConfusedEmoteMid"
+          },
+          {
+            "objectName": "BoredEmoteMid"
+          },
+          {
+            "objectName": "BoredEmote"
+          },
+          {
+            "objectName": "AngryEmote"
+          },
+          {
+            "objectName": "BlankEmoteLeft"
+          }
+        ]
       },
       {
         "objectName": "BaseButton"
@@ -16211,7 +16248,7 @@
         "gridColor": 0,
         "gridAlpha": 0.36,
         "snap": false,
-        "zoomFactor": 0.6041654220619391,
+        "zoomFactor": 0.689871329204943,
         "windowMask": false
       },
       "objectsGroups": [
@@ -16358,6 +16395,10 @@
               "name": "Estate0"
             }
           ]
+        },
+        {
+          "name": "EstateUI",
+          "objects": []
         }
       ],
       "variables": [
@@ -16383,7 +16424,7 @@
           ]
         },
         {
-          "name": "CameraSettings",
+          "name": "CameraVars",
           "type": "structure",
           "children": [
             {
@@ -16395,6 +16436,11 @@
               "name": "CurrentZoom",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "EstateTweenUndergoing",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
@@ -16488,7 +16534,7 @@
           "locked": true,
           "name": "StatusBar",
           "persistentUuid": "5e23b198-0f4e-45e8-9b8d-cdd601cda80a",
-          "width": 602,
+          "width": 746,
           "x": 193,
           "y": 696,
           "zOrder": 2,
@@ -18289,10 +18335,9 @@
           "height": 51,
           "keepRatio": true,
           "layer": "UI",
-          "locked": true,
           "name": "NewPanelSprite",
           "persistentUuid": "141f7d10-28a8-4fb2-a24a-58d279b85556",
-          "width": 602,
+          "width": 751,
           "x": 192,
           "y": 687,
           "zOrder": 1,
@@ -28176,22 +28221,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "DefaultButton",
-          "persistentUuid": "3909feeb-97f6-41a5-a229-a05a3a68022d",
-          "width": 0,
-          "x": 373,
-          "y": -204,
-          "zOrder": 2390,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 1203,
@@ -28203,6 +28232,170 @@
           "x": 223,
           "y": 831,
           "zOrder": 2391,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "FloorsNumLabel",
+          "persistentUuid": "19e039b9-a7d6-4fb9-8684-ed24e19bcaf8",
+          "width": 0,
+          "x": 359,
+          "y": 614,
+          "zOrder": 2392,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "FloorsNum",
+          "persistentUuid": "08dfa915-ddd7-4175-97cb-74379850ec41",
+          "width": 0,
+          "x": 547,
+          "y": 615,
+          "zOrder": 2393,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TotalInhabitantsLabel",
+          "persistentUuid": "4972d295-41f4-4564-8eb0-dcb0c2400d3e",
+          "width": 0,
+          "x": 579,
+          "y": 615,
+          "zOrder": 2394,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InhabitantsNum",
+          "persistentUuid": "0d6ac88a-4190-4b90-8d55-054daae58ac0",
+          "width": 0,
+          "x": 707,
+          "y": 615,
+          "zOrder": 2395,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "EstateName",
+          "persistentUuid": "7e613517-38c7-4a48-856c-0258ad8c8c68",
+          "width": 0,
+          "x": 478,
+          "y": 564,
+          "zOrder": 2396,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "EstateIcon",
+          "persistentUuid": "10f439bb-071d-4905-b62c-2c8a625d2a2a",
+          "width": 36,
+          "x": 432,
+          "y": 570,
+          "zOrder": 2397,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 86,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ChartsIcon",
+          "persistentUuid": "9ba5a4d5-b3b9-4563-a657-a43cfa893fd4",
+          "width": 86,
+          "x": 847,
+          "y": 571,
+          "zOrder": 2398,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TimeSinceMaintenanceLabel",
+          "persistentUuid": "213110c0-d297-4fbf-ba11-2e7f3d05683c",
+          "width": 0,
+          "x": 371,
+          "y": 648,
+          "zOrder": 2399,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 23,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Wrench",
+          "persistentUuid": "5ef498be-30ba-43b3-9287-9c811cf68c4c",
+          "width": 46,
+          "x": 673,
+          "y": 638,
+          "zOrder": 2400,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 86,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "BuildFloorIcon",
+          "persistentUuid": "396f1208-0510-415a-9bf4-509cecf0a2a9",
+          "width": 81,
+          "x": 752,
+          "y": 571,
+          "zOrder": 2401,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32270,6 +32463,507 @@
             "PartsScale": 0.7,
             "FloorCost": 250
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "FloorsNumLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Number of floors:",
+          "font": "NotoSans Font",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Number of floors:",
+            "font": "NotoSans Font",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "FloorsNum",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "NotoSans Font",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "NotoSans Font",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TotalInhabitantsLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Inhabitants:",
+          "font": "NotoSans Font",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Inhabitants:",
+            "font": "NotoSans Font",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "InhabitantsNum",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "NotoSans Font",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "NotoSans Font",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "EstateName",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "High Rise",
+          "font": "NotoSans Font",
+          "textAlignment": "left",
+          "characterSize": 36,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "High Rise",
+            "font": "NotoSans Font",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 36,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "EstateIcon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ui\\estate-icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 226,
+                            "y": 0
+                          },
+                          {
+                            "x": 226,
+                            "y": 220
+                          },
+                          {
+                            "x": 0,
+                            "y": 220
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ChartsIcon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ui\\charts-icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 60,
+                            "y": 0
+                          },
+                          {
+                            "x": 60,
+                            "y": 60
+                          },
+                          {
+                            "x": 0,
+                            "y": 60
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TimeSinceMaintenanceLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Days since last maintenance",
+          "font": "NotoSans Font",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Days since last maintenance",
+            "font": "NotoSans Font",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Wrench",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ui\\wrench-icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 153,
+                            "y": 6
+                          },
+                          {
+                            "x": 153,
+                            "y": 152
+                          },
+                          {
+                            "x": 7,
+                            "y": 152
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "DefaultButton2",
+          "type": "DefaultButton::DefaultButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {}
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BuildFloorIcon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ui\\build-floor-icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 6
+                          },
+                          {
+                            "x": 184,
+                            "y": 6
+                          },
+                          {
+                            "x": 184,
+                            "y": 184
+                          },
+                          {
+                            "x": 6,
+                            "y": 184
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -32367,6 +33061,41 @@
           {
             "folderName": "UI",
             "children": [
+              {
+                "folderName": "EstateUI",
+                "children": [
+                  {
+                    "objectName": "FloorsNumLabel"
+                  },
+                  {
+                    "objectName": "TimeSinceMaintenanceLabel"
+                  },
+                  {
+                    "objectName": "EstateName"
+                  },
+                  {
+                    "objectName": "TotalInhabitantsLabel"
+                  },
+                  {
+                    "objectName": "FloorsNum"
+                  },
+                  {
+                    "objectName": "InhabitantsNum"
+                  },
+                  {
+                    "objectName": "EstateIcon"
+                  },
+                  {
+                    "objectName": "ChartsIcon"
+                  },
+                  {
+                    "objectName": "BuildFloorIcon"
+                  },
+                  {
+                    "objectName": "Wrench"
+                  }
+                ]
+              },
               {
                 "objectName": "NewPanelSprite"
               },
@@ -32480,6 +33209,9 @@
           },
           {
             "objectName": "DefaultButton"
+          },
+          {
+            "objectName": "DefaultButton2"
           }
         ]
       },
@@ -32489,7 +33221,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Game start",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32640,7 +33371,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEachChildVariable",
-              "iterableVariableName": "CameraSettings.InteractiveLayers",
+              "iterableVariableName": "CameraVars.InteractiveLayers",
               "valueIteratorVariableName": "LayerName",
               "keyIteratorVariableName": "LayerIndex",
               "conditions": [],
@@ -32649,7 +33380,18 @@
                 {
                   "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "CameraVars.EstateTweenUndergoing",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -32707,7 +33449,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "CameraSettings.CurrentZoom",
+                        "CameraVars.CurrentZoom",
                         "+",
                         "2"
                       ]
@@ -32755,7 +33497,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "CameraSettings.CurrentZoom",
+                        "CameraVars.CurrentZoom",
                         "-",
                         "0.5"
                       ]
@@ -32803,7 +33545,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "CameraSettings.CurrentZoom",
+                        "CameraVars.CurrentZoom",
                         "-",
                         "0.5"
                       ]
@@ -32851,7 +33593,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "CameraSettings.CurrentZoom",
+                        "CameraVars.CurrentZoom",
                         "+",
                         "2"
                       ]
@@ -32871,7 +33613,7 @@
                         "VariableString(LayerName)",
                         "",
                         "<",
-                        "CameraSettings.MinZoom"
+                        "CameraVars.MinZoom"
                       ]
                     }
                   ],
@@ -32903,7 +33645,7 @@
                         "VariableString(LayerName)",
                         "",
                         ">",
-                        "CameraSettings.MaxZoom"
+                        "CameraVars.MaxZoom"
                       ]
                     }
                   ],
@@ -32933,10 +33675,10 @@
                       },
                       "parameters": [
                         "",
-                        "-CameraSettings.BoundariesSpan / 2",
-                        "-CameraSettings.BoundariesSpan / 3 ",
-                        "CameraSettings.BoundariesSpan / 2",
-                        "CameraSettings.BoundariesSpan / 3",
+                        "-CameraVars.BoundariesSpan / 2",
+                        "-CameraVars.BoundariesSpan / 3",
+                        "CameraVars.BoundariesSpan / 2",
+                        "CameraVars.BoundariesSpan / 3",
                         "VariableString(LayerName)",
                         ""
                       ]
@@ -36427,6 +37169,84 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "CameraVars.InteractiveLayers",
+                  "valueIteratorVariableName": "LayerName",
+                  "keyIteratorVariableName": "LayerIndex",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Tween::SceneTweenHasFinished"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Estate Tween on layer \" + VariableString(LayerName)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EstateTweenUndergoing",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EstateTweenUndergoing",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "CameraVars.EstateTweenUndergoing",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "EstateTweenUndergoing",
+                  "type": "boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -36455,7 +37275,7 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                  "iterableVariableName": "CameraSettings.InteractiveLayers",
+                  "iterableVariableName": "CameraVars.InteractiveLayers",
                   "valueIteratorVariableName": "LayerName",
                   "keyIteratorVariableName": "LayerIndex",
                   "conditions": [],
@@ -36475,8 +37295,18 @@
                             "Estate0.CenterX()",
                             "Estate0.Y()",
                             "VariableString(LayerName)",
-                            "\"linear\"",
-                            "1"
+                            "\"swingTo\"",
+                            "0.6"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "CameraVars.EstateTweenUndergoing",
+                            "True",
+                            ""
                           ]
                         }
                       ]
@@ -36677,7 +37507,7 @@
           "defaultCameraBehavior": "do-nothing",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
